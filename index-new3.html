@@ -8,22 +8,19 @@
 <script src="gfx/ui.core.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
-
-<!-- BEGIN HTML COPY/PASTE -->
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<script src="gfx/jquery.scroll-follow.js"></script>
-<script src="gfx/jquery.easing.1.3"></script>
-
+<script src="/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/jquery.scroll-follow.js"></script>
+<script src="/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/jquery.easing.1.3"></script>
  
 <!-- navigation drop down script for IE7 DO NOT REMOVE--> 
-<script type="text/javascript" src="gfx/yp-scripts.js"></script>
+<script type="text/javascript" src="/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/yp-scripts.js"></script>
 <!-- navigation drop down script for IE7 DO NOT REMOVE--> 
 
-<script type="text/javascript" src="gfx/mobileNavPosition.js"></script>
-<script type="text/javascript" src="gfx/coverBG.js"></script>
+<script type="text/javascript" src="/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/mobileNavPosition.js"></script>
+<script type="text/javascript" src="/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/coverBG.js"></script>
 
 
 </head>
@@ -72,43 +69,20 @@
 
     <header id="header" class="sk-container">
         <div id="logo" class="sixteen columns">
-        	<a href="#">Company Name</a>
-        	<div class="tagline1"><!--{Tagline_1}-->Your Slogan Goes Here</div>
+        	{LOGO}
+        	<div class="tagline1">{Tagline_1}</div>
         </div><!-- end logo -->
         
         <div id="phone-number" class="sixteen columns">
-        	<div class="tagline2"><!--{Tagline_2}-->Call Now</div>
-        	404-555-5555
+        	<div class="tagline2">{Tagline_2}</div>
+        	{PHONE}
         </div><!-- end phone -->
     </header><!-- end header container --> 
 </div>  <!-- header wrapper end -->
 <div id="wrapper-nav">
 	<div class="sk-container">  
   		<nav id="menu" class="sixteen columns">
-        	<ul id="nav">
-        		<li class="current first"><a href="#">Home</a>
-                	<ul>
-                    	<li><a href="#">drop 1</a>
-                        	<ul>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                            </ul>
-                        
-                        </li>
-                        <li><a href="#">drop 1</a></li>
-                        <li><a href="#">drop 1</a></li>
-                        <li><a href="#">drop 1</a></li>
-                        <li><a href="#">drop 1</a></li>
-                    </ul>
-                 
-                </li>
-                <li><a href="#">Services</a></li>
-                <li class="last"><a href="#">Contact Us</a></li>	
-            </ul>
- 
+        	{Site_Menu} 
         </nav><!-- end web nav -->
      </div>
 </div>   
@@ -116,38 +90,7 @@
         <!-- mobile menu -->
 <div class="sk-container">
 	<nav id="m-menu" class="sixteen columns">
-        	<ul id="nav">
-        		<li class="current first"><a href="#">Home</a>
-                	<ul>
-                    	<li><a href="#">drop 1</a>
-                        	<ul>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                            </ul>
-                        
-                        </li>
-                        <li><a href="#">drop 1</a></li>
-                        <li><a href="#">drop 1</a></li>
-                        <li><a href="#">drop 1</a></li>
-                        <li><a href="#">drop 1</a></li>
-                    </ul>
-                 
-                </li>
-                <li><a href="#">Services</a></li>
-                <li class="last"><a href="#">Contact Us</a>
-                	<ul>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                                <li><a href="#">drop 2</a></li>
-                            </ul>
-                </li>	
-          </ul>       
-        
+        	{Site_Menu}        
 	</nav>
 </div>
 <!-- end mobile menu -->
@@ -158,62 +101,7 @@
     	
         <section id="content" class="sixteen columns">
             
-            <div class="four columns alpha">
-            	<a href="#"><img alt=""src="gfx/cta1img.jpg" id="124"></a>
-                <h3>Sed lorem lectus</h3>
-                <p>Sed molestie, risus quis fermentum molestie, justo mi egestas tellus, et fermentum ligula nulla at purus.</p>
-            </div>
-            <div class="four columns">
-            	<a href="#"><img alt=""src="gfx/cta2img.jpg" id="124"></a>
-                <h3>Sed lorem lectus</h3>
-                <p>Sed molestie, risus quis fermentum molestie, justo mi egestas tellus, et fermentum ligula nulla at purus.</p>
-            </div>
-            <div class="four columns">
-            	<a href="#"><img alt="" src="gfx/cta3img.jpg" id="124"></a>
-                <h3>Sed lorem lectus</h3>
-                <p>Sed molestie, risus quis fermentum molestie, justo mi egestas tellus, et fermentum ligula nulla at purus.</p>
-            </div>
-            <div class="four columns omega">
-            	<a href="#"><img alt="" src="gfx/cta4img.jpg" id="124"></a>
-                <h3>Sed lorem lectus</h3>
-                <p>Sed molestie, risus quis fermentum molestie, justo mi egestas tellus, et fermentum ligula nulla at purus.</p>
-            </div>
-            <hr>
-            <div class="four columns alpha">
-            	<form>
-                	<label class="required" for="name">Name:</label>
-                    <input type="text" maxlength="255" value="" id="name" name="name">
-                    <label class="optional" for="phone">Phone:</label>
-                    <input type="text" maxlength="255" value="" id="phone" name="phone">
-                    <label class="required" for="email">Email:</label>
-                    <input type="text" maxlength="255" value="" id="email" name="email">
-                    <label class="optional" for="message">Message:</label>
-                    <textarea rows="3" cols="30" id="message" name="message"></textarea>
-                    <input type="hidden" id="captcha-challenge" value="" name="recaptcha_challenge_field">
-                    <input type="hidden" id="captcha-response" value="" name="recaptcha_response_field">
-                    <input type="submit" class="buttons" value="Send" id="send" name="send"> 
-                </form>
-                <hr>
-                <h3>Businees Name</h3>
-                <ul style="margin-left: 0 !important; padding-left: 0 !important; list-style: none !important;">
-                    <li>123 Peachtree Street</li>
-                    <li>Atlanta, GA 30308</li>
-                    <li>Phone: 555-555-5555</li>
-                    <li>Business Hours: 8a.m. - 5p.m.</li>
-                </ul>
-            </div>
-            <div class="twelve columns omega">
-            	<img alt="" class="flR" src="gfx/couple.png" id="124">
-                <h2>Sed lorem lectus</h2>
-                <p>Cras ut tellus eros. Vivamus nec orci sed nulla sollicitudin consequat ut a ligula. Donec porta enim vel nisi sodales id mattis purus sollicitudin. Morbi id nisl sit amet velit suscipit ornare. Ut lorem elit, porttitor nec dignissim non, scelerisque non erat. Sed vestibulum, sapien eget accumsan pulvinar, arcu nibh dictum tellus, quis congue nibh magna in nibh. Vivamus elementum ornare purus, nec feugiat arcu consequat eu.</p>
-                <p>Ut eu fringilla libero. Curabitur at purus id orci sagittis ultricies. Vestibulum sed lorem velit, nec dictum ante. Quisque bibendum risus vitae turpis ullamcorper et tempus orci aliquam. Sed tincidunt gravida mauris, et posuere sapien cursus eu. In hac habitasse platea dictumst. Fusce nisi ligula, blandit sit amet pulvinar ac, euismod ac quam. In in urna massa.</p>
-                <div class="spotLight ">
-                	<img alt="" class="flL" src="gfx/biceps.jpg" id="187">
-                	<h3>Mauris ultrices rutrum dapibus.</h3>
-                    <p>Mauris molestie felis et arcu egestas id auctor ante bibendum. Duis pharetra nisi non elit hendrerit imperdiet. Ut lacus felis, suscipit at luctus faucibus, euismod nec arcu. Duis sit amet dui mauris, eu pulvinar mauris. Aliquam erat volutpat. Phasellus nec nulla est, pellentesque varius mi. Nullam ornare erat at risus volutpat sollicitudin. Vestibulum sagittis nisl sed dui ornare pretium.</p>
-                </div>
-            </div>
-
+            {CONTENT_DATA}
             
         </section> <!-- end content area -->
         
@@ -226,12 +114,7 @@
 	<footer class="sk-container">
     
         <nav class="eight columns">
-            <ul id="mirror-menu-module">
-                <li class="first"><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li class="last"><a href="#">Contact Us</a></li>	
-            </ul>
-
+            {MODULE_MIRROR_MENU}
         </nav>  <!-- end mirrior menu module -->
         <div class="eight columns footerData">
         	{FOOTER_DATA}
@@ -248,8 +131,6 @@
 </div> <!-- wrapper copyright end -->
     </div> <!-- end skinBg2 -->
 </div> <!-- end skin bg -->
-
-
 
 
 <!-- END HTML COPY/PASTE -->

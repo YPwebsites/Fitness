@@ -3,14 +3,14 @@ fixed calculators and typography
 Correct Template Version
  */
 
-@import url("gfx/wp-skeleton.css"); 
+@import url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/wp-skeleton.css"); 
 
 @font-face {
 	font-family: "Century Gothic";
-	src: url("gfx/GOTHIC.TTF"),
-		 url("gfx/GOTHICI.TTF"),
-		 url("gfx/GOTHICB.TTF"),
-		 url("gfx/GOTHICBI.TTF");
+	src: url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/GOTHIC.TTF"),
+		 url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/GOTHICI.TTF"),
+		 url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/GOTHICB.TTF"),
+		 url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/GOTHICBI.TTF");
 }
 
 
@@ -40,19 +40,19 @@ body {
 		}
 		
 .skinBg { 
-	/* background: transparent url("gfx/bodyBG25.png") repeat top center; */
+	/* background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/bodyBG25.png") repeat top center; */
 	position: relative;
 	z-index: -9;
-	z-index: 0\9;
+	z-index: 09;
 	background-color: #212121;
-	background-image: url("gfx/coverBG.jpg");
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/coverBG.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
 	background-size: cover;	
 }		
 .skinBg2 {
-	background: transparent url("gfx/bodyBG25.png") top left repeat scroll;	
+	background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/bodyBG25.png") top left repeat scroll;	
 }
 		
 /* 2.HEADINGS */
@@ -307,13 +307,13 @@ p.m-logo {
  }
  
 div#wrapper-content {
-	background: transparent url("gfx/wrapperContentBG.png") top left repeat;
+	background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/wrapperContentBG.png") top left repeat;
 	background: rgba(0,0,0,0.65);
 }
 
  
 #wrapper-footer {
-/*	background: transparent url("gfx/modNavBG.jpg") top left repeat; */
+/*	background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/modNavBG.jpg") top left repeat; */
 	background: #a80000; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxMiUiIHN0b3AtY29sb3I9IiNhODAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM2ZjAyMDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4OCUiIHN0b3AtY29sb3I9IiNhODAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -330,7 +330,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a80000', end
 #wrapper-copyright {
 	display:inline-block;
 	padding: 10px 0px;
-	background: transparent url("gfx/copyrightBG.jpg") top left repeat;
+	background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/copyrightBG.jpg") top left repeat;
 	}
 
 #header {
@@ -469,7 +469,7 @@ img#siteMainDynHeaderImage1 { }
 /* Feel free to change up this area as you see fit in order
 to best suit your design. */
 div#wrapper-nav {
-	background: transparent url("gfx/NavBarBG.png") repeat-x top left;	
+	background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/NavBarBG.png") repeat-x top left;	
 	display: block;
 	position:relative;
 	height: 53px;
@@ -526,7 +526,7 @@ ul#nav {
 			white-space: nowrap;
 			text-transform: uppercase;
 			color: #731313;
-			background: transparent url("gfx/navItemBG.jpg") top left repeat-x;
+			background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/navItemBG.jpg") top left repeat-x;
 			border-left: 1px solid #c7c8c8;
 		border-right: 1px solid #fff;
 			margin: 1px 0;
@@ -535,7 +535,7 @@ ul#nav {
 		ul#nav > li.current > a,
 		ul#nav > li > a:hover {
 		    color: #fff;
-			background: transparent url("gfx/navCurrentItemBG.jpg") top left repeat-x;
+			background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/navCurrentItemBG.jpg") top left repeat-x;
 			}
 		 
 			
@@ -560,7 +560,7 @@ ul#nav {
 		ul#nav li ul li a:hover, ul#nav li.current ul li a:hover { /* second level dropdown button hover state */	
 			border-bottom: 1px solid #900;
 			color:#fff;
-			background: transparent url("gfx/navCurrentItemBG.jpg") top left repeat-x;
+			background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/navCurrentItemBG.jpg") top left repeat-x;
 			}
 		
 						ul#nav li ul li ul li a, ul#nav li.current ul li ul li a { /* third level dropdown buttons */
@@ -574,7 +574,7 @@ ul#nav {
 						ul#nav li ul li ul li a:hover, ul#nav li.current ul li ul li a:hover { /* third level dropdown button hover state */						
 							border-bottom: 1px solid #900;
 							color:#fff;
-							background: transparent url("gfx/navCurrentItemBG.jpg") top left repeat-x;
+							background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/navCurrentItemBG.jpg") top left repeat-x;
 							}
 		 
 		ul#nav li ul li ul { /* third-and-above-level lists */
@@ -611,7 +611,7 @@ ul#nav {
 		top:5px;
 		right:5px;
 		z-index: 800;
-		background-image:url("gfx/icon-menu.png");
+		background-image:url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/icon-menu.png");
 		background-repeat:no-repeat;
 		background-position:top left;
 		background-color:#333;
@@ -675,12 +675,12 @@ ul#nav {
 			
 		/* yes, you can combine the bottom two styles if you would like or need to */	
 		#m-menu ul#nav li.current a {
-			background: transparent url("gfx/navCurrentItemBG.jpg") top left repeat-x;
+			background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/navCurrentItemBG.jpg") top left repeat-x;
 		    color: #fff;
 			}
 			
 		#m-menu ul#nav li a:hover {
-			background: transparent url("gfx/navCurrentItemBG.jpg") top left repeat-x;
+			background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/navCurrentItemBG.jpg") top left repeat-x;
 			color: #fff;
 			}
 			
@@ -706,7 +706,7 @@ ul#nav {
 		
 		#m-menu ul#nav li ul li a:hover, #m-menu ul#nav li.current ul li a:hover { /* second level dropdown button hover state */	
 			
-			background: transparent url("gfx/navCurrentItemBG.jpg") top left repeat-x;
+			background: transparent url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/navCurrentItemBG.jpg") top left repeat-x;
 			color:#fff;
 			}
 		
@@ -1037,7 +1037,7 @@ div.widget-button:focus {
 	height: 46px;
 	display: block;
 	margin-bottom: 7px;
-	background: #ddd url("gfx/back-to-top.png") no-repeat center center;
+	background: #ddd url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/back-to-top.png") no-repeat center center;
 	/* rounded corners */
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
@@ -1120,7 +1120,7 @@ a.m-click-phone span, a.m-click-mail span, a.m-click-map span {
 	overflow:hidden;
 	text-align:center;
 	margin:0 auto;
-	background-image: url("gfx/mobile-panel-icons.png");
+	background-image: url("/templates/bubbles/templates_YPwebsites/styles/m_4/49/491/295/gfx/mobile-panel-icons.png");
 	background-repeat:no-repeat;
 	display:block;
 	padding:0px;
